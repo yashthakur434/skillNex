@@ -1,0 +1,917 @@
+[
+  {
+    "path": "careerx/.env.example",
+    "bytes": 1179,
+    "sha256": "1a2be2d17bf3b29c08b2aa23b8becafdeb126fe8836eee42284cde131fa19ad8"
+  },
+  {
+    "path": "careerx/.github/workflows/ci.yml",
+    "bytes": 1283,
+    "sha256": "da8e8d09a74eb92296653649b79b59ef0debb4e426bb4e2c80086c2a4350213a"
+  },
+  {
+    "path": "careerx/.gitignore",
+    "bytes": 114,
+    "sha256": "82232bda2dc88d5b5208d1fdb42f881f0817cfabeb77fc84edbee62eefb7ae2e"
+  },
+  {
+    "path": "careerx/.prettierignore",
+    "bytes": 60,
+    "sha256": "84f8950a3404888edb3bd640362b20c1ccf7f57d6e3057e7a47f4a50c771e31a"
+  },
+  {
+    "path": "careerx/.prettierrc.json",
+    "bytes": 185,
+    "sha256": "94cb1ceeea426bdb86bf01aa93ec0935f9e84203f6a2e9d70ed556420aec6209"
+  },
+  {
+    "path": "careerx/.vscode/tasks.json",
+    "bytes": 1280,
+    "sha256": "1b7ea6db809f3934eaaaa05e6d7d3ee45b113272e2bfbba2073e6def24674747"
+  },
+  {
+    "path": "careerx/backend/.dockerignore",
+    "bytes": 47,
+    "sha256": "f44d8a56ab0ae9a15407f1748642d1fc28a9c59c90e504bc854a7982ad711b2b"
+  },
+  {
+    "path": "careerx/backend/config/ai.properties.example",
+    "bytes": 873,
+    "sha256": "e974631011ad7aba537571b4eb8b29d659fb7e891e3a8f4a2cd63c2a5ef9ac02"
+  },
+  {
+    "path": "careerx/backend/Dockerfile",
+    "bytes": 650,
+    "sha256": "9a11f2929b66276a19f12f01c7195307768500701bd18c617b15c22137552453"
+  },
+  {
+    "path": "careerx/backend/pom.xml",
+    "bytes": 2967,
+    "sha256": "b7fe05d84b305862b4d8d8776168bb822c456a81d1486c11d1c1e7cb27ab7b8d"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/ai/AIExecutor.java",
+    "bytes": 1168,
+    "sha256": "39d4e1c569063813789c3c50feee73bbf04c774101bace1248df77362000dbdc"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/ai/AIService.java",
+    "bytes": 609,
+    "sha256": "6ba9949b8f9da53f117ee331f172879460fb791d6359c74d65447d607cc7adbb"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/ai/CareerAIService.java",
+    "bytes": 503,
+    "sha256": "9a8f7cdc5b7d68b47c71081da38449eb03316c58bdd50542c4e3cba6c1897773"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/ai/CommunityAIService.java",
+    "bytes": 552,
+    "sha256": "0de3466c999bc181f463d358b7312967ed27b27a387edbb8f3581d61d7715084"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/ai/HttpAIService.java",
+    "bytes": 13298,
+    "sha256": "e79a13c94fec3247e85835f069beef5a0d2ae030475c0cecec3bb29fffe6ab70"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/ai/InterviewAIService.java",
+    "bytes": 866,
+    "sha256": "ed6dc50fc1155f8fd81d041970ea84d0eff0d82a68b163f7df97f0fa6d32cb54"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/ai/InterviewLiveTokenService.java",
+    "bytes": 6959,
+    "sha256": "39c7a9bb5913b598ffa3466628dbcc3c93d22746b0d23be842318f0c0f329e40"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/ai/ResumeAIService.java",
+    "bytes": 865,
+    "sha256": "ccb4d545fc02d1043392538d5441a4d094aeb239f49b0d32a742eb08eae507f9"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/CareerXApplication.java",
+    "bytes": 394,
+    "sha256": "917b4b2c082cbcc8aac72e670ff65fa8d01a6de7375b8641b80dfd3f653d027e"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/config/DemoSeed.java",
+    "bytes": 10878,
+    "sha256": "41121de68dca105162d3e274df7cecc6b1b9d3c82e94ea709b44dfce8d90a99f"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/config/GoogleConfig.java",
+    "bytes": 872,
+    "sha256": "6f2b1e2c3d6e8ed69602a35ae5eac3ea0a8a1074631366264aa46d2e2375827a"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/config/LinkedInProperties.java",
+    "bytes": 1319,
+    "sha256": "93c96699e140bdcccd695b789d82f64054678ebabc38d2984c8a9fd28c87e01b"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/config/SecurityConfig.java",
+    "bytes": 4813,
+    "sha256": "8f658076a06979e06888cb5c52cd2264f6079d2c5cfc950428963a94b66fa9bb"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/AdminController.java",
+    "bytes": 4426,
+    "sha256": "f47f108e2fb4a188272e9c3a558a32de5a4aca41b7266aebb58c2b5d06c2ca54"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/AssistantController.java",
+    "bytes": 4410,
+    "sha256": "d25c2f930fcb8dea7cdf364be17e678c53277a7ff51abd07e861ae1582d6db27"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/AuthController.java",
+    "bytes": 6624,
+    "sha256": "956c33b9db0fdeee357d1c6642fa38ebd2f32974f7e81246ee1453cd72f2c3bc"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/CareerController.java",
+    "bytes": 3658,
+    "sha256": "1a976e4b6dd6fa83a4cf52bc84a1f011c086aeb91594c19b1aa480cb40f9254e"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/CommunityController.java",
+    "bytes": 5203,
+    "sha256": "e045883a6ba7c649fe925d991912170363d0c8cd1ffb66e7fb70555832996154"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/InterviewAudioController.java",
+    "bytes": 3589,
+    "sha256": "cd6c7e7cebe132f6c3a2b8d02bfb7c963ef87f28d8d7f4708ffc68a27e6fe33b"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/InterviewController.java",
+    "bytes": 3819,
+    "sha256": "4d0db6989ad87db2e56e5b585ce99d074fdaa40a7b5988ce05b44e4b05604b50"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/InterviewLiveController.java",
+    "bytes": 2040,
+    "sha256": "6f63bf1fa1c074961ab890d9aeb7e2a9884d9deebbe56146e0c07a6816109252"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/LinkedInController.java",
+    "bytes": 5580,
+    "sha256": "baeda5913fc3ec93ff14c8999ffb7e7a830e8ce103914e4871dee04d4e1e77fb"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/PhotoController.java",
+    "bytes": 2656,
+    "sha256": "03a4412412bebd9be30cb0547ded0601ec8e51a9c1edd2deb38a558294c54e73"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/ResumeController.java",
+    "bytes": 5526,
+    "sha256": "2525a05740b01179c673dc6f9240ba8f231cb87f95e1535958d040b88ec5aa26"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/controller/UserController.java",
+    "bytes": 5787,
+    "sha256": "4c684d21b1c89574bb23b14d0fd8d2a8a4c148ba72082d65c6050cd812049a7d"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/dto/Requests.java",
+    "bytes": 2971,
+    "sha256": "c2aa590c2107d1f59c60f51dab04c790d98cb831e14a18cd7a1fd16745109248"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/exception/ApiErrors.java",
+    "bytes": 2208,
+    "sha256": "616fb5e4064dfda645e5890e5091497973ff6960f553956b43adc8f3c3c0848c"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/repository/Store.java",
+    "bytes": 2884,
+    "sha256": "565941c9147a5a4fcd053aca349153d0c781e73e685b0723c040a3b03f6b47c8"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/security/RateLimit.java",
+    "bytes": 1491,
+    "sha256": "bbdd6e382f214bb2e8c5ab5ef77643737bc3f4bad3d98e7c89074763a4c88455"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/security/SessionFilter.java",
+    "bytes": 2432,
+    "sha256": "1f5bf3a206b921828c075e79a2aa009ee011430f5bd80568039417844386e3da"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/security/Tokens.java",
+    "bytes": 1641,
+    "sha256": "145101683b6500ea1bb3e8ba2133de8a34721ad9c164e64f04d35a651e2958fd"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/CommunityService.java",
+    "bytes": 9793,
+    "sha256": "91671da716f0fe8e591e058be9c971279cc79cf8be7e0c14778ec80e39089c0d"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/DocumentService.java",
+    "bytes": 7220,
+    "sha256": "a8597800422a58e64c1cb46fcd851fd295db1b7d439cf2661bc86cd101c5da19"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/InterviewCurriculum.java",
+    "bytes": 6245,
+    "sha256": "a89ddc4280951170cffcd35cf53ce14377e8ea83a7b2d2f5776a8ce688bb47eb"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/InterviewService.java",
+    "bytes": 13897,
+    "sha256": "8598728033c48a2a10c5dde6a535bcae77d904403c0db342ae027e916a5776ec"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/LinkedInAnalysisService.java",
+    "bytes": 4908,
+    "sha256": "b2792d874cae5b301609a0214eabb5e1d6049b9ba35f100509c9927e45e23c73"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/LinkedInClient.java",
+    "bytes": 4543,
+    "sha256": "52f50d25c92ec8f1c57e546c153677cc8802d5360e4312eee872f5e2fe297017"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/LinkedInConnectionService.java",
+    "bytes": 4543,
+    "sha256": "ee5716fcd492b5fee1c30725e08b272f9b8df0469c10a0caf1ee104f810b18fc"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/PracticeInterview.java",
+    "bytes": 7121,
+    "sha256": "4bd03035328c3e808786e791c571a30829a18dc87b3533ee4cede0d8197d67da"
+  },
+  {
+    "path": "careerx/backend/src/main/java/com/careerx/service/ReminderService.java",
+    "bytes": 1238,
+    "sha256": "96408650fec7d8ef73d0f45948578dcca4d3b2636b2edb9ca05dfba2fb54daaa"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/application-demo.yml",
+    "bytes": 400,
+    "sha256": "965c992e9c61326205ae2e4fd9282774f949840dd4df9dd43acbbb152ce13c9e"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/application.yml",
+    "bytes": 1634,
+    "sha256": "479818c1e1e447b08fba761b5ea41af64674f5896c8551f50d6a48c4266b0595"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/db/migration/V1__careerx.sql",
+    "bytes": 8108,
+    "sha256": "666990ab25d48c0fd714bbbbdcae8eb8a4ec6c9d04f6483ba67e6b027cc5b60a"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/db/migration/V2__operational_indexes.sql",
+    "bytes": 1114,
+    "sha256": "3c99043e0a0b94f40f3d52fb69496e25f41f8dfb779c182dcff5faab7d7c1732"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/db/migration/V3__interview_practice_mode.sql",
+    "bytes": 168,
+    "sha256": "b13e1f1db4dad491bc05e6a9610fbd7f2723ff9171be0bb8e284edb6ffce466a"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/db/migration/V4__assistant_conversations.sql",
+    "bytes": 813,
+    "sha256": "1fcbfbf6afedae5d704ae9206a394c8740368c3fbb3ed64beeb037537b6eee08"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/db/migration/V5__interactive_interviews.sql",
+    "bytes": 513,
+    "sha256": "9d2f0b52378613c5b72b7c518190ef4f94ef90aaafd76ae1d3c6405d549c6ca9"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/db/migration/V6__role_interview_curriculum.sql",
+    "bytes": 390,
+    "sha256": "7fb9056c0a7397799341e80f3f63b4b04acdc05a3bfe9fe0cbb1733752481952"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/db/migration/V7__locked_interviewer.sql",
+    "bytes": 92,
+    "sha256": "95003fbb6dd7262a84427a367dce36920a8164e0973ad6d0cdb4b532d27ccf2e"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/db/migration/V8__linkedin_analysis.sql",
+    "bytes": 1001,
+    "sha256": "a129ac09fa6b5c5f1a199b2f2410fe751ca85aed136339d436f6609fc135413e"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/interview/role-questions.json",
+    "bytes": 20941,
+    "sha256": "4fbf7e86985301e2ae657e1bcc0a11aca59d306fa61463c03c443a237d7a41b2"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/AssistantPrompt.txt",
+    "bytes": 2772,
+    "sha256": "f41f0e1dc828ed0ac8cb43b819a4a332dfd816dd405eddb0fe8228371d5d7160"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/CareerRecommendationPrompt.txt",
+    "bytes": 193,
+    "sha256": "173cfd069233d8216b6dbafac5370fa99bd99f4afce00cbd519e317fc7b1bb1d"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/CareerRoadmapPrompt.txt",
+    "bytes": 388,
+    "sha256": "0d08ea27232dfc774621b1e2baf940cacf013c043801f93cb366a1fc44e04e39"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/CommunityAnswerPrompt.txt",
+    "bytes": 191,
+    "sha256": "163f3831b4fcb136cca010aa0b83e6a49c10e9137d1f06ec7ee9b548a87a05f4"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/InterviewEvaluationPrompt.txt",
+    "bytes": 2030,
+    "sha256": "262e81094f04608d4225dfd36a66183b747342b02b13d934f9b1185b06d27421"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/InterviewPrompt.txt",
+    "bytes": 1928,
+    "sha256": "1f66f94cf715a68ceb33284b7746a112b52ba0167b6a0709ca6e0123fbec8314"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/InterviewTurnPrompt.txt",
+    "bytes": 1901,
+    "sha256": "a85fbf9b1d2d6301da7e30988182a89d488080bff5c225074c16542ae96314af"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/JobMatchPrompt.txt",
+    "bytes": 256,
+    "sha256": "0f610bf7e856594395b45b9180b0ed184c63019dc8dc0fa05ab18252a05cfb34"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/LinkedInAnalysisPrompt.txt",
+    "bytes": 1798,
+    "sha256": "f9292519af401e9a0242ff0fe62c690492c5896bed6bcd52b690c33e627e1183"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/QuestionEnhancementPrompt.txt",
+    "bytes": 137,
+    "sha256": "8d509a5f9dd2e9c66bdf80a8ee65d64bf3e0a5db5cfbfd5423e252c09bb51fcf"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/ResumeAnalysisPrompt.txt",
+    "bytes": 528,
+    "sha256": "10783609b11a288e9319405efb31e6b54eecf4bd7ff5fb8d7b0adca4587c435c"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/ResumeImprovementPrompt.txt",
+    "bytes": 153,
+    "sha256": "11ef8bb768f39e5bab9c07d037f210b451fdfcce4fbc7a69078ec69771f9357d"
+  },
+  {
+    "path": "careerx/backend/src/main/resources/prompts/ResumeTailoringPrompt.txt",
+    "bytes": 397,
+    "sha256": "b209b9ba1eda6dfccb13f5bb6364c26a046511f5e04a94b636fc126e8f2100b7"
+  },
+  {
+    "path": "careerx/backend/src/test/java/com/careerx/AIProviderContractTest.java",
+    "bytes": 7056,
+    "sha256": "7a2bb387c50f7bb64790efe0794b8f75d3dff60dedc6bd003594ed2438b9d26d"
+  },
+  {
+    "path": "careerx/backend/src/test/java/com/careerx/InterviewLiveTokenTest.java",
+    "bytes": 1915,
+    "sha256": "6fa1333cd1ff2589d287c7bb1fb749670a6cb25792cd9f602019e4b988e5f0fd"
+  },
+  {
+    "path": "careerx/backend/src/test/java/com/careerx/LinkedInIntegrationTest.java",
+    "bytes": 12610,
+    "sha256": "6ca577e8ba2ee47185e336a54e07198b1a5f1200660f6cb4c2a0d5befdf989a6"
+  },
+  {
+    "path": "careerx/backend/src/test/java/com/careerx/PlatformIntegrationTest.java",
+    "bytes": 42617,
+    "sha256": "2f8c8be1b1648e2bf1bf0423a2c0e2cf1eaef3cc02bd57c18a07c05e1d24af92"
+  },
+  {
+    "path": "careerx/backend/src/test/java/com/careerx/service/LinkedInClientTest.java",
+    "bytes": 4862,
+    "sha256": "5d8ac634213f264f51ebe1730944f488c167a71ce00e95de90dbd3404b63244b"
+  },
+  {
+    "path": "careerx/backend/src/test/resources/application-test.yml",
+    "bytes": 346,
+    "sha256": "6fbca1ec6714e987a2538d8804be36397c5c59aaae06a88ecc30b94b5a30b8d9"
+  },
+  {
+    "path": "careerx/CareerX.code-workspace",
+    "bytes": 207,
+    "sha256": "8643fca9c1c584c2a10772a50763fb33670c70b4aa3dd7fc3307013092ef705f"
+  },
+  {
+    "path": "careerx/compose.yml",
+    "bytes": 928,
+    "sha256": "535e7c8682298b7fe96535e5a7138fd1cce12eb896b024656beb3f1fc18e0991"
+  },
+  {
+    "path": "careerx/docs/API.md",
+    "bytes": 14111,
+    "sha256": "9d5ffc46a76465e1bbcff426ea8de2eb97722819114fd3bdb65fe6fa235a115d"
+  },
+  {
+    "path": "careerx/docs/ARCHITECTURE.md",
+    "bytes": 7767,
+    "sha256": "08943da6e28c777ab5247fa2e35137136bb99ba2ffe38fe4e654b82e81e92645"
+  },
+  {
+    "path": "careerx/docs/DEPLOYMENT.md",
+    "bytes": 4875,
+    "sha256": "eaaa85559a26d7a5e4b0eeffdf2dc69c8d356209bc4348fac5e0c637ffee0849"
+  },
+  {
+    "path": "careerx/docs/GEMINI-LIVE-INTERVIEW.md",
+    "bytes": 5576,
+    "sha256": "d0ef748a2f8aa76bcbadd282d20a0ba402057eec38eae045b8162d68f782e73a"
+  },
+  {
+    "path": "careerx/docs/INTERVIEW-VOICE-LAYOUT-UPDATE.md",
+    "bytes": 4354,
+    "sha256": "82a8bd63d678609a9f74615f1c1cc99a8b5c1cabf9fcb918d2ade018cfd87b82"
+  },
+  {
+    "path": "careerx/docs/LINKEDIN-REVIEW.md",
+    "bytes": 6911,
+    "sha256": "2bbe6a6774bd6daa57bba6245b468bdc656dbe362a5ce9e24ea3dba5824ccb13"
+  },
+  {
+    "path": "careerx/docs/SKILLNEX-BRANDING.md",
+    "bytes": 1557,
+    "sha256": "4e8fc0fceb49c78f88e817e2398ce2bd5be136088262355954abd4ea2c302721"
+  },
+  {
+    "path": "careerx/docs/VERIFICATION.md",
+    "bytes": 2882,
+    "sha256": "9b129fa4a7e7d997bebaa92f31112beb1c6826ebc2b10e7025407f9924ccbde9"
+  },
+  {
+    "path": "careerx/frontend/.dockerignore",
+    "bytes": 59,
+    "sha256": "506664964bbe2fd914137f33719f2fab0bd240ebc72fb8d7c08233fc74a7663a"
+  },
+  {
+    "path": "careerx/frontend/components.json",
+    "bytes": 264,
+    "sha256": "0197025bc6a8f9365710b296621a2418a76bf51ef2829ec3a9ea5c05a0ea9e01"
+  },
+  {
+    "path": "careerx/frontend/Dockerfile",
+    "bytes": 291,
+    "sha256": "e2cef86e0a72e16d2524cc9d9a75ad368b03fcfc5c63c197da996c6cfe1a8d59"
+  },
+  {
+    "path": "careerx/frontend/index.html",
+    "bytes": 793,
+    "sha256": "bdaa40e7ad7a1691b7d1ffe578b2b3c20d4e7414719af2b44207c4f7e70f30b1"
+  },
+  {
+    "path": "careerx/frontend/nginx.conf",
+    "bytes": 1667,
+    "sha256": "70bc0ab58fb44c9c60dea998c73f055d0f35f8511b2015d14182c667749670dc"
+  },
+  {
+    "path": "careerx/frontend/package-lock.json",
+    "bytes": 88765,
+    "sha256": "e6f077c4b4cef464dc4be7c479e56730585139ae37c9c80ecae39dd53319f8e3"
+  },
+  {
+    "path": "careerx/frontend/package.json",
+    "bytes": 1077,
+    "sha256": "4f3074d5e134bf901841a1e0598368b106aae202451419dc65d80eb7a57913ff"
+  },
+  {
+    "path": "careerx/frontend/public/audio/pcm-capture.js",
+    "bytes": 1085,
+    "sha256": "c161ea5bedf3e81b2c2a736ea329c7b3c23a1c8f551cdb8a04140cc39a24ddee"
+  },
+  {
+    "path": "careerx/frontend/public/brand/skillnex-mark.png",
+    "bytes": 880104,
+    "sha256": "d29e63035db2266ef384741592292ca6fac25c622c7fd9be9a4d064bb4fc546d"
+  },
+  {
+    "path": "careerx/frontend/public/brand/skillnex-original.jpg",
+    "bytes": 85869,
+    "sha256": "13a72d3593c17e0feaac0a80a84aede04d0857200830c2a6ce2b1be39b17c05d"
+  },
+  {
+    "path": "careerx/frontend/public/favicon.svg",
+    "bytes": 253,
+    "sha256": "70a01d77eec4309b5ee46a749396e401602cbcddb6dc2c365c40aff6e49ec8d1"
+  },
+  {
+    "path": "careerx/frontend/public/images/aarav-ai-interviewer.png",
+    "bytes": 2034543,
+    "sha256": "f5cc678b2dd24f20925329e10624c23d390f6775420568492dea4bedca189d44"
+  },
+  {
+    "path": "careerx/frontend/public/images/campus-evening.png",
+    "bytes": 2429836,
+    "sha256": "979e5340fd43532b87d8b27510143fb112925a2db0d3dcd864c3fc281b73790e"
+  },
+  {
+    "path": "careerx/frontend/public/images/maya-ai-interviewer.png",
+    "bytes": 2088337,
+    "sha256": "8e2d29535884942de3f6db52480b80f489d2d6b5db07661868a995fd6405d415"
+  },
+  {
+    "path": "careerx/frontend/src/api/assistantRequest.test.ts",
+    "bytes": 2600,
+    "sha256": "75c3da4ff6b61b168f2f1e02909408b889c541359da472f852990ba07efe0751"
+  },
+  {
+    "path": "careerx/frontend/src/api/assistantRequest.ts",
+    "bytes": 1121,
+    "sha256": "3c58de6c84eb97dec04622fb04dab15c1d5dbc11dcf93f589c868bfa21768b41"
+  },
+  {
+    "path": "careerx/frontend/src/api/client.ts",
+    "bytes": 1428,
+    "sha256": "349c7f70796dccc63e6cd62d8c17e950ce0c2469453a63e3867334cbb6a39bc2"
+  },
+  {
+    "path": "careerx/frontend/src/assistant.css",
+    "bytes": 4520,
+    "sha256": "dd03931ce6ca1fb31b39150af42789c7b48855824461dbddd97bee427da11a1a"
+  },
+  {
+    "path": "careerx/frontend/src/campus.css",
+    "bytes": 21049,
+    "sha256": "43dda80b8276b5ba6d75d0f41da3191adefe0f727673ee24bd906f4d95fbfc95"
+  },
+  {
+    "path": "careerx/frontend/src/career-ui.css",
+    "bytes": 6143,
+    "sha256": "5c18c06c9c87dabc0333eb364e737dd1149f7d347456283ee6e542f7ecdd66ba"
+  },
+  {
+    "path": "careerx/frontend/src/chatbot.css",
+    "bytes": 6023,
+    "sha256": "98de7878f3714708c05250b3bd9cda762d84cecab57360524740a6623c3428f0"
+  },
+  {
+    "path": "careerx/frontend/src/components/AIInterviewerPortrait.tsx",
+    "bytes": 6160,
+    "sha256": "ca338517177c3f7b816e4fb626b0e320ceaa91435c54f8ac1f9167825c9fccb3"
+  },
+  {
+    "path": "careerx/frontend/src/components/AssistantWidget.tsx",
+    "bytes": 3017,
+    "sha256": "2fb0f082038d6d1f29f6d2bf51784ab3144cc565de227ca93e426c598e6aa1d8"
+  },
+  {
+    "path": "careerx/frontend/src/components/career-scene.css",
+    "bytes": 7859,
+    "sha256": "d9470004b3b51a121ea8c49553130ddc970354b6f5c02badb8440c3c0279ac04"
+  },
+  {
+    "path": "careerx/frontend/src/components/CareerScene.tsx",
+    "bytes": 4574,
+    "sha256": "eb881eb6e4445c9fef9854274f9675fab5f7cfb954fdb361764b5d5109d2f609"
+  },
+  {
+    "path": "careerx/frontend/src/components/ChatReply.test.tsx",
+    "bytes": 1279,
+    "sha256": "9448f22f204dbd48d9959e96c78d96e83c3cedb78399f5609524733f54d262eb"
+  },
+  {
+    "path": "careerx/frontend/src/components/ChatReply.tsx",
+    "bytes": 1760,
+    "sha256": "c7d4c7583af85d7d1492fadb4b71d2b97ce59174895b2d0e3ae71040a4915dcf"
+  },
+  {
+    "path": "careerx/frontend/src/components/Common.tsx",
+    "bytes": 3599,
+    "sha256": "c173bdbd6e995321077c672d80fd01048c79ba45ce8d86f22e11ac77148fdbef"
+  },
+  {
+    "path": "careerx/frontend/src/components/ImmersiveEffects.tsx",
+    "bytes": 9439,
+    "sha256": "2132ce9d6104f078ff5a3d75899694f8e3cab3ea54638f9a148f06edb021dd1b"
+  },
+  {
+    "path": "careerx/frontend/src/components/InterviewCamera.tsx",
+    "bytes": 3976,
+    "sha256": "ce2ad15aa4ec35c755d93109f853fbb96daa358c24e00aaf586408787132d28f"
+  },
+  {
+    "path": "careerx/frontend/src/components/InterviewerAvatar.tsx",
+    "bytes": 3587,
+    "sha256": "9044ab292f95423654244212c16d2fd110d5fa787381927221ff3b3c6ec67de6"
+  },
+  {
+    "path": "careerx/frontend/src/components/InterviewExperience.tsx",
+    "bytes": 37718,
+    "sha256": "5621610aebe6d6ba15071b621ccfd787dd56d3b91d561eccecff07cd35a0e11c"
+  },
+  {
+    "path": "careerx/frontend/src/components/InterviewReportView.tsx",
+    "bytes": 8713,
+    "sha256": "3c9a52baaae83a3f70bded9fa66cf90e86a157295b6c178d37f1248cc89c8a01"
+  },
+  {
+    "path": "careerx/frontend/src/components/LiveInterviewControls.tsx",
+    "bytes": 4714,
+    "sha256": "20f4ee1097d470fff385523b3fb4ba13e3a78483033713228b947f67bef649a7"
+  },
+  {
+    "path": "careerx/frontend/src/components/RecordedInterviewAnswer.tsx",
+    "bytes": 7759,
+    "sha256": "1e39a494d156da19803472487f2ee3ec67a75b005f5090696336f42a4591b02a"
+  },
+  {
+    "path": "careerx/frontend/src/components/ui/button.tsx",
+    "bytes": 956,
+    "sha256": "40e4018ded19c02c54216e7101c1995f785b4aea2bc7616b5cb34f8d05f48b05"
+  },
+  {
+    "path": "careerx/frontend/src/components/ui/dialog.tsx",
+    "bytes": 1106,
+    "sha256": "0d7bdf3d6b712b7646aef05864a5e338df8f389d3e3b0bf268662d088515e2f4"
+  },
+  {
+    "path": "careerx/frontend/src/components/WorkspacePreview.tsx",
+    "bytes": 1915,
+    "sha256": "ab42bd5fab3e6247223029eb64b64516b9a0d3e356c20d7ea376de4039220b57"
+  },
+  {
+    "path": "careerx/frontend/src/dimension.css",
+    "bytes": 31979,
+    "sha256": "3da8e3eb3f2ea13b2502d89781a727bda17639275595b5a6fcd45cddfe8ff90f"
+  },
+  {
+    "path": "careerx/frontend/src/features.css",
+    "bytes": 26165,
+    "sha256": "995377a3465765ee5f5ba705008c8e0428cf73fe1c1bea14d915e320e37d7a35"
+  },
+  {
+    "path": "careerx/frontend/src/female-interviewer.css",
+    "bytes": 3930,
+    "sha256": "065ea4244c07da7759a0a6bbf7dec5a9fc27b08eb7fca5fdea8d2ed9e25ab378"
+  },
+  {
+    "path": "careerx/frontend/src/grey-theme.css",
+    "bytes": 5622,
+    "sha256": "6f0bee6bbb9e4177ac1ad0a987937d7f7cc0ed0665f377c3e90f5a240e504268"
+  },
+  {
+    "path": "careerx/frontend/src/hooks/useSession.tsx",
+    "bytes": 586,
+    "sha256": "f9d81d99f7959aed6738fb02d577a3fbc5ab82a9980775d8e878f5a864994a3d"
+  },
+  {
+    "path": "careerx/frontend/src/immersive.css",
+    "bytes": 3394,
+    "sha256": "896a87612682a759941b8c774b293e94090e696c25816a344a4f81d56b73971f"
+  },
+  {
+    "path": "careerx/frontend/src/interactive-interview.css",
+    "bytes": 7138,
+    "sha256": "7d02be0dc571b4e5f669ac6e0ee4b7ade23e5673b1a1195d85baf413b6ceac4b"
+  },
+  {
+    "path": "careerx/frontend/src/interview-experience.css",
+    "bytes": 8573,
+    "sha256": "3ccab669e75709ae7056c594bd223fdbf4d6c4c1e659c39b46e863787ed37828"
+  },
+  {
+    "path": "careerx/frontend/src/layouts/AppLayout.tsx",
+    "bytes": 13568,
+    "sha256": "8f7cab5b22095aac6a17eddfe8aa6261e74223ebd80a86f35adec2238f58e860"
+  },
+  {
+    "path": "careerx/frontend/src/linkedin.css",
+    "bytes": 4561,
+    "sha256": "75aceb3915c2425c9d08e1e9a8d553ee16c537e3eb89878461784869c3749f25"
+  },
+  {
+    "path": "careerx/frontend/src/logout.css",
+    "bytes": 379,
+    "sha256": "43da675f2d4506bf49b4d4f859b5654a15fd3dc0040fdb3806a2f0e86e9f1d90"
+  },
+  {
+    "path": "careerx/frontend/src/main.tsx",
+    "bytes": 4231,
+    "sha256": "ed22b84b0e04482bbe9c22e87da61206da1e83a38d6f0035e59d107a0025ecb9"
+  },
+  {
+    "path": "careerx/frontend/src/meeting-interview.css",
+    "bytes": 14962,
+    "sha256": "5c450e361ef88e9bef85d1ccf82bcaa2f295824232a741fc6d76229b432f8819"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Admin.tsx",
+    "bytes": 11015,
+    "sha256": "d79087d67ac068208c358935fb7c12a3c3ba6419133c78a6cad84835157f59e2"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Assistant.tsx",
+    "bytes": 16391,
+    "sha256": "efb04fd878bcd7f0f207825e4bc9df8b6d1704793cde6ab9f405bfc3b9320422"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Auth.tsx",
+    "bytes": 9429,
+    "sha256": "25f98ea14b970e87f7fa6858d7c677e6272dd7366922216679eb5151d2fa3955"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Builder.tsx",
+    "bytes": 10354,
+    "sha256": "029bb38a6565ee76e80e683862e766f2645c3e0bd7cd3a52984ea479ead6da67"
+  },
+  {
+    "path": "careerx/frontend/src/pages/CampusLanding.tsx",
+    "bytes": 11814,
+    "sha256": "5667dbf55ab94193ee250fcefc2e4ae9edb87a8c4aaced4b63a405da09954c64"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Community.tsx",
+    "bytes": 22539,
+    "sha256": "5727c1a7d6d149802692f310e18dba1ff7eb45cf74f7af99c50bb9f0923084e2"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Dashboard.tsx",
+    "bytes": 16749,
+    "sha256": "c1ffadbee2c545a3b5616984f94b5935ea52459c7b398eaef9c7ed365a895bcb"
+  },
+  {
+    "path": "careerx/frontend/src/pages/DimensionLanding.tsx",
+    "bytes": 17990,
+    "sha256": "a33993f695b9f6c6f794a8f3d2ce0a164d218b7db0ce765d2549fac61d48db18"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Interviews.tsx",
+    "bytes": 22844,
+    "sha256": "3d2480b703f47e4d24dc2db23e1c31183304688bd0c603e2b850482979af30d1"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Jobs.tsx",
+    "bytes": 8755,
+    "sha256": "8b981d189c9084f277ff89a2208fb5d8d2dcb8f60ab5096898d0b0cec4e33709"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Landing.tsx",
+    "bytes": 61,
+    "sha256": "070a12c0678b7202af536405655fc43d203e3a3c6259ac6a40610e49b9a08646"
+  },
+  {
+    "path": "careerx/frontend/src/pages/LinkedIn.tsx",
+    "bytes": 17443,
+    "sha256": "bb732b7a88779ad068e7c31c5d12f9214c6c71557f9062e1e263ce12572cfffd"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Profile.tsx",
+    "bytes": 6848,
+    "sha256": "96a05a7988f33e66c8ec9eeb34c538678d4ba27d877b727f766d988c9dcca9ab"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Resumes.tsx",
+    "bytes": 11377,
+    "sha256": "92a55ab65f30cf65c4b24c5c16a7cbbc7c24dd6372b08c0c3507313c9e652440"
+  },
+  {
+    "path": "careerx/frontend/src/pages/Roadmap.tsx",
+    "bytes": 9153,
+    "sha256": "f5396088005fd340f5ee390ca02162891800ad91c287d177fdcf3f05e6cac17b"
+  },
+  {
+    "path": "careerx/frontend/src/polish.css",
+    "bytes": 7484,
+    "sha256": "e7cc920e2ac2dd21ded18f5005784f58467cefac4cb79b4e15a1d2ec782ae52b"
+  },
+  {
+    "path": "careerx/frontend/src/professional.css",
+    "bytes": 10635,
+    "sha256": "3b9f9b5079fd172d0542e51e0e36ad78795d5b90d648e6c109cc3098e7826c5d"
+  },
+  {
+    "path": "careerx/frontend/src/responsive.css",
+    "bytes": 31194,
+    "sha256": "03300b83085979af27cb21488d7138c6b65bed5f9087136c10ecbc645a5341dc"
+  },
+  {
+    "path": "careerx/frontend/src/styles.css",
+    "bytes": 38064,
+    "sha256": "df3213f3b309cd7275afc9f71462bb0844514789d85d379a6c7d551626f2480b"
+  },
+  {
+    "path": "careerx/frontend/src/types/index.ts",
+    "bytes": 1378,
+    "sha256": "ff7b5b457493d54ddd52ef79a4da60e131cede132e6305bb95437c679947dc26"
+  },
+  {
+    "path": "careerx/frontend/src/utils/cn.test.ts",
+    "bytes": 729,
+    "sha256": "15dd8471f02eb54c78468d1722ee2664764c64c7c84d01ace144f1c5a6856f5d"
+  },
+  {
+    "path": "careerx/frontend/src/utils/cn.ts",
+    "bytes": 757,
+    "sha256": "baacb35bf784f7d2a1e564cef7891d73d5c3e30a167f2b0b93038e55f4d2acee"
+  },
+  {
+    "path": "careerx/frontend/src/utils/directMicrophone.ts",
+    "bytes": 5356,
+    "sha256": "6c75259f1fe38bbc39c875cbd9d4b3edc9a72a83a709bf88be7f1baee7f616c2"
+  },
+  {
+    "path": "careerx/frontend/src/utils/graphiteTheme.ts",
+    "bytes": 551,
+    "sha256": "9935eda6ddfebc501da266877e6e084432339ae2034b93d28fb50ca9819d7cae"
+  },
+  {
+    "path": "careerx/frontend/src/utils/interviewFlow.test.ts",
+    "bytes": 2140,
+    "sha256": "2042651ce77fea42a0b074c8d7f1d0a11c2910f1a927b8c1e91a681137ea116d"
+  },
+  {
+    "path": "careerx/frontend/src/utils/interviewFlow.ts",
+    "bytes": 746,
+    "sha256": "1ecabbfdea7d8e1927b0a4f1689405026b2f9dff51ddb508ff094bf96a9fdfd5"
+  },
+  {
+    "path": "careerx/frontend/src/utils/interviewVoice.test.ts",
+    "bytes": 4394,
+    "sha256": "2f3f4b0e49fc4b2dde6f5511ce2a80c08f1eb270814e82d1a3c4db8f527e6951"
+  },
+  {
+    "path": "careerx/frontend/src/utils/interviewVoice.ts",
+    "bytes": 5920,
+    "sha256": "330bf9729b214744389b0c9f5cb4b7a39d0f0f29faee8f371e2d528ba1035ca3"
+  },
+  {
+    "path": "careerx/frontend/src/utils/liveInterviewAudio.test.ts",
+    "bytes": 1545,
+    "sha256": "0510dd24048a1ccb4150dc88205011e0bd0256c8e0638ecd7dcd8a80511e900a"
+  },
+  {
+    "path": "careerx/frontend/src/utils/liveInterviewAudio.ts",
+    "bytes": 7401,
+    "sha256": "84144098ea4867026f0449fb4e4494958f503ec13f28809259b9193c16e25557"
+  },
+  {
+    "path": "careerx/frontend/src/utils/liveInterviewSession.test.ts",
+    "bytes": 7235,
+    "sha256": "dcee260ac24e28490b6cb456563d9219f15bdf61632b904c4869293bda49289c"
+  },
+  {
+    "path": "careerx/frontend/src/utils/liveInterviewSession.ts",
+    "bytes": 16261,
+    "sha256": "a11dda892b81ab467671e71c92cd790c84ba56a888ae399917eb460d262be195"
+  },
+  {
+    "path": "careerx/frontend/src/utils/portraitMotion.test.ts",
+    "bytes": 871,
+    "sha256": "282c359f32fa61dd7b465ca2e5d6a77cc006fcc78000fa9c93359c9be4410450"
+  },
+  {
+    "path": "careerx/frontend/src/utils/portraitMotion.ts",
+    "bytes": 638,
+    "sha256": "042a531128816892fe154ffed12be9e79647bce6d30e9c81cb0ef9231fd29cff"
+  },
+  {
+    "path": "careerx/frontend/src/vite-env.d.ts",
+    "bytes": 38,
+    "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+  },
+  {
+    "path": "careerx/frontend/tsconfig.json",
+    "bytes": 585,
+    "sha256": "7b5c4820a78e8cc137a455ad11076dd2799ad911a990c2e6fdf526be30899b8c"
+  },
+  {
+    "path": "careerx/frontend/vite.config.ts",
+    "bytes": 675,
+    "sha256": "edb68c7bb956d0a2d703a9e29d2415d5876494953c7774e60a433247c9601a60"
+  },
+  {
+    "path": "careerx/README.md",
+    "bytes": 10976,
+    "sha256": "7c85af39a84d0b53c1bb3fb87cacfffce5c2a3661942dd35d43724db3fa81629"
+  },
+  {
+    "path": "careerx/scripts/dev.ps1",
+    "bytes": 1052,
+    "sha256": "edf5464a522525a2a9f213d3471dbb0b1bfdd378102baf724b34cd6495310cfe"
+  },
+  {
+    "path": "careerx/SkillNex.code-workspace",
+    "bytes": 207,
+    "sha256": "8643fca9c1c584c2a10772a50763fb33670c70b4aa3dd7fc3307013092ef705f"
+  },
+  {
+    "path": "careerx/START_HERE_VSCODE.md",
+    "bytes": 7339,
+    "sha256": "3a1181c5a4ca1398163173273de987d04b339ba788770d4ffff44bc0175ec4ad"
+  },
+  {
+    "path": "careerx/UPDATE_AND_CHECK.md",
+    "bytes": 7089,
+    "sha256": "bf9e6fd6272e72088d15b64bb42af22b5acb777b5f1fa6235c1308fad2f6b9a3"
+  }
+]

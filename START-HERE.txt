@@ -1,0 +1,87 @@
+CAREERX - COMPLETE FRONTEND + BACKEND INTERVIEW UPDATE
+30 September 2026
+
+For your existing CareerX project. All frontend and backend source is included;
+the previous interview, portrait and meeting add-on ZIPs are not required.
+
+INSTALL IN VS CODE (WINDOWS)
+1. Stop both running terminals with Ctrl+C. Back up your existing careerx folder.
+2. Extract this ZIP to a separate folder. Copy BOTH frontend and backend folders
+   into your EXISTING careerx folder. Choose Replace for matching files.
+   MERGE the folders. Do not delete the original project.
+3. Keep backend/config/ai.properties (your Gemini settings), backend/data (saved
+   demo accounts, answers and uploads), and any .env/private configuration.
+   This ZIP deliberately contains no API keys or personal database files.
+4. In VS Code: Terminal > New Terminal. From careerx run:
+      cd backend
+      mvn.cmd spring-boot:run "-Dspring-boot.run.profiles=demo"
+   Keep this terminal open. Wait for Started CareerXApplication / port 8080.
+   If you normally use another database/profile, keep that existing command.
+   Start only one backend against the same local database.
+5. Open another terminal from careerx and run:
+      cd frontend
+      npm.cmd install
+      npm.cmd run dev
+   Open the exact Local URL printed by Vite, then press Ctrl+Shift+R.
+   If already inside backend, use cd ../frontend in a NEW terminal instead.
+6. Go to Mock interviews > Schedule interview. CREATE A NEW INTERVIEW to use
+   the new role progression. Existing sessions and reports remain compatible.
+
+If java or mvn.cmd is not recognized, use the terminal where your existing
+Java/Maven setup works. This update does not require reinstalling Java.
+If port 8080/database-in-use appears, stop the earlier backend terminal first.
+Do not delete database files to fix that message.
+Do not run npm audit fix --force as part of this installation.
+
+WHAT CHANGED
+- All 35 requested career roles, with 210 authored technical questions across
+  Easy / Medium / Hard. No Axis or general Ask AI chat content is used.
+- Introduction first, then Easy -> Medium -> Hard -> Closing -> final review.
+- Short sessions (up to 10 min): 5 main questions; longer sessions: 8 main
+  questions. AI may add one relevant follow-up per technical main question,
+  for a maximum of 8 / 14 turns. The time limit can end the session earlier.
+- The backend controls the stages. AI analyzes each answer and may request
+  a follow-up, but cannot replace or reorder authored main questions.
+- HR / Behavioral use role-context scenarios; Coding uses practical staged
+  exercises and code/pseudocode input. Submitted code is not executed.
+- Experience level controls follow-up depth; every session still builds from
+  Easy to Hard. Choose Technical for the role's authored technical bank.
+- Answer analysis informs follow-ups; strengths, areas to improve, scores,
+  question feedback and transcript are shown in the final AI report.
+- Failed AI requests preserve the saved answer so you can retry.
+- Ask AI remains on normal workspace pages, including the interview list.
+  The floating chatbot is hidden inside the interview room.
+- Existing meeting layout, Female Maya / Male Aarav selector, browser voice,
+  microphone input, optional local camera preview and full view are included.
+- Choose Female Maya or Male Aarav in the lobby BEFORE starting. Once started,
+  that interviewer is locked for the entire session, including page reloads and
+  reopening the room. This applies to AI and guided practice. Start a new
+  interview to choose a different person. Old sessions without a saved choice
+  default to Maya; their earlier browser-only selection cannot be recovered.
+
+IMPORTANT DETAILS
+Gemini must be connected for AI follow-ups, analysis and scoring. Quota/provider
+errors can still occur. Guided practice uses authored questions without AI
+scores or adaptive follow-ups. No API key is bundled.
+Maya and Aarav are AI-generated STILL portraits with browser speech and a
+speaking indicator, not lip-synced video. Voice availability depends on browser
+and installed voices. Camera preview is local and optional.
+The demo database remains persistent file-based H2. This update does not migrate
+your data to PostgreSQL. Always launch from the same backend folder and profile.
+Database migrations V1-V7 are included and run automatically. Do not edit or
+delete previously applied migrations or backend/data.
+
+EDITING QUESTIONS
+backend/src/main/resources/interview/role-questions.json
+Frontend role choices: frontend/src/data/interviewRoles.ts
+Interview-only AI prompt: backend/src/main/resources/prompts/InterviewTurnPrompt.txt
+Final review prompt: backend/src/main/resources/prompts/InterviewEvaluationPrompt.txt
+
+VALIDATION
+Backend: 24 tests passed (18 integration, 6 provider contract).
+Frontend: 14 tests passed; production build passed.
+Tests cover all 35 role banks, ordered stages, bounded adaptive follow-ups,
+saved answer recovery, final report context and older interview compatibility.
+Interviewer checks cover saved selection, repeated start requests, reopening
+the room, invalid choices, default choice and both AI and practice modes.
+Live Gemini calls and physical camera/microphone were not verified in this run.

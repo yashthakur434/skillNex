@@ -1,0 +1,10 @@
+node_modules/
+dist/
+target/
+.env
+backend/config/ai.properties
+*.log
+data/
+.idea/
+test-results/
+playwright-report/
